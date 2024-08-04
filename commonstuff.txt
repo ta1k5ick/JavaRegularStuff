@@ -1,0 +1,66 @@
+
+
+// In java.util package
+Class Arrays{ 
+Used as Arrays.methodName
+
+
+toString(arr_name) : Returns a Array Displayed as String
+asList()	Returns a fixed-size list backed by the specified Arrays
+compare(array 1, array 2)	Compares two arrays passed as parameters lexicographically.
+copyOf(originalArray, newLength)	Copies the specified array, truncating or padding with the default value (if necessary) so the copy has the specified length.
+copyOfRange(originalArray, fromIndex, endIndex)	Copies the specified range of the specified array into a new Arrays.
+
+'https://www.geeksforgeeks.org/array-class-in-java/'
+
+
+}
+
+Class HashSet{
+
+Set<Integer> set = new HashSet<>(); // New HashSet
+set.add(element);
+set.size(); // Returns size of hashset
+set.contains(element); // Returns boolean depending on if set contained element
+
+}
+
+Method for Strings{
+
+  stringName.length(); // Returns number of characters in string
+  stringName.toLowerCase(); // Returns lowercase version of string
+  stringName.charAt(index); //Returns char at index in string  
+  stringName.toCharArray(); // Returns a char array from a string name
+  
+
+}
+
+Class HashMap{
+
+
+
+  Map<String,List<String>> anagramMap = new HashMap<>();
+  HashMap<String, Integer> map = new HashMap<>();
+  map.put("vishal", 10);
+  map.size();   // Print size of hashmap
+  System.out.println(map); // Print elements of a map
+  map.containsKey("vishal")  // returns boolean
+  map.containsValue(10)  // returns boolean
+  map.get("vishal");    // Get the value by providing key or null if key doesnt exist
+  map.put("vishal",51); // can be used to put a new value or replace the existing one
+  map.remove(key);
+  map.values();         // Returns a collection view of the values contained in this map
+  map.clear();          // Empty the hashmap
+
+  // Traversal
+  for (Map.Entry<String, Integer> e : map.entrySet())
+            System.out.println("Key: " + e.getKey() + " Value: " + e.getValue());
+
+  
+            
+
+
+
+
+}
+
