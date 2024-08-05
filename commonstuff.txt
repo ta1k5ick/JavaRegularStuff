@@ -10,6 +10,7 @@ asList()	Returns a fixed-size list backed by the specified Arrays
 compare(array 1, array 2)	Compares two arrays passed as parameters lexicographically.
 copyOf(originalArray, newLength)	Copies the specified array, truncating or padding with the default value (if necessary) so the copy has the specified length.
 copyOfRange(originalArray, fromIndex, endIndex)	Copies the specified range of the specified array into a new Arrays.
+s= s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();  // remove everything else other than the alphanumeric alphabets
 
 'https://www.geeksforgeeks.org/array-class-in-java/'
 
